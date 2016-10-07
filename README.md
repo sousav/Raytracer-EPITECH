@@ -1,5 +1,26 @@
-# Raytracer
+# Raytracer-EPITECH
 # Note : 38.5
+
+## Elèves:
+	sousa_v  (victor.sousa@epitech.eu)
+    kerdel_e (ethan.kerdelhue@epitech.eu)
+    leandr_g (gaetan.leandre@epitech.eu)
+    lefevr_h (philippe.lefevr@epitech.eu)
+
+## Projet
+	Réalisation d'un moteur de rendu utilisant le raytracing (en C)
+	
+## Rendu
+	- Raytracer en C
+	- Editeur du fichier de scène (XML) en ligne de commande
+	- Raytracer en CPP
+    - Interface graphique du Raytracer CPP avec QT
+	- Serveur de clustering pour un rendu plus rapide en réseaux
+	  Gestion de droit sur le server et chat en ligne pendant le rendu
+	  entre les ordinateurs connecté
+    - Une (voir deux) bonne dose de bonus graphique! :D
+
+## Notation
 - Préliminaires (2 / 2) : RAS
 - Savoir-vivre (0 / 0) : Tous le groupe est en costume.
 - Norme et warnings (0 / 0) : 
