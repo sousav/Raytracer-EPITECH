@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+
+  <view>
+    <x_size>1080</x_size>
+    <y_size>720</y_size>
+    <cam_pos>
+      <x>0</x>
+      <y>10</y>
+      <z>100</z>
+    </cam_pos>
+    <look_at>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </look_at>
+    <fov>75</fov>
+    <alias>1</alias>
+    <background>sprites/image/sky1.png</background>
+  </view>
+
+  <material_list>
+    <count>2</count>
+
+    <mat1>
+      <name>idk</name>
+      <red>200</red>
+      <green>100</green>
+      <blue>25</blue>
+      <reflect>0</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat1>
+
+    <mat2>
+      <name>mirroir</name>
+      <red>120</red>
+      <green>112</green>
+      <blue>180</blue>
+      <reflect>75</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat2>
+  </material_list>
+
+  <object_list>
+    <count>7</count>
+
+    <obj1>
+      <name>sphere</name>
+      <type>sphere</type>
+      <center>
+	      <x>0</x>
+	      <y>0</y>
+	      <z>-15</z>
+      </center>
+      <radius>10</radius>
+      <material_id>2</material_id>
+    </obj1>
+
+    <obj2>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>0</x>
+        <y>-11</y>
+        <z>0</z>
+      </center>
+      <dir>
+        <x>0</x>
+        <y>-1</y>
+        <z>0</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj2>
+
+    <obj3>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>0</x>
+        <y>40</y>
+        <z>0</z>
+      </center>
+      <dir>
+        <x>0</x>
+        <y>1</y>
+        <z>0</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj3>
+
+    <obj4>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>40</x>
+        <y>0</y>
+        <z>0</z>
+      </center>
+      <dir>
+        <x>1</x>
+        <y>0</y>
+        <z>0</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj4>
+
+    <obj5>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>-40</x>
+        <y>0</y>
+        <z>0</z>
+      </center>
+      <dir>
+        <x>-1</x>
+        <y>0</y>
+        <z>0</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj5>
+
+    <obj6>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>0</x>
+        <y>0</y>
+        <z>-30</z>
+      </center>
+      <dir>
+        <x>0</x>
+        <y>0</y>
+        <z>-1</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj6>
+
+    <obj7>
+      <name>mur</name>
+      <type>plan</type>
+      <center>
+        <x>0</x>
+        <y>0</y>
+        <z>110</z>
+      </center>
+      <dir>
+        <x>0</x>
+        <y>0</y>
+        <z>1</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>2</material_id2>
+    </obj7>
+  </object_list>
+  <light_list>
+    <count>2</count>
+
+    <light1>
+      <center>
+        <x>-35</x>
+	      <y>35</y>
+        <z>0</z>
+      </center>
+      <intensity>200</intensity>
+    </light1>
+
+    <light2>
+      <center>
+        <x>35</x>
+	      <y>-5</y>
+	      <z>0</z>
+      </center>
+      <intensity>200</intensity>
+    </light2>
+  </light_list>
+
+</scene>

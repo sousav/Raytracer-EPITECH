@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+
+  <view>
+    <x_size>1080</x_size>
+    <y_size>720</y_size>
+    <cam_pos>
+      <x>-60</x>
+      <y>20</y>
+      <z>-60</z>
+    </cam_pos>
+    <look_at>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </look_at>
+    <fov>85</fov>
+    <alias>1</alias>
+    <background>sprites/image/sky1.png</background>
+  </view>
+
+  <material_list>
+    <count>8</count>
+
+    <mat1>
+      <name>1</name>
+      <red>250</red>
+      <green>35</green>
+      <blue>135</blue>
+      <reflect>0</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat1>
+
+    <mat2>
+      <name>2</name>
+      <red>255</red>
+      <green>255</green>
+      <blue>25</blue>
+      <reflect>10</reflect>
+      <transparency>0</transparency>
+      <ior>1</ior>
+      <bump>0.35</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat2>
+
+    <mat3>
+      <name>3</name>
+      <red>50</red>
+      <green>50</green>
+      <blue>50</blue>
+      <reflect>0</reflect>
+      <transparency>50</transparency>
+      <ior>1.5</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat3>
+
+    <mat4>
+      <name>4</name>
+      <red>25</red>
+      <green>255</green>
+      <blue>25</blue>
+      <reflect>15</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0.2</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat4>
+
+    <mat5>
+      <name>5</name>
+      <red>255</red>
+      <green>25</green>
+      <blue>25</blue>
+      <reflect>10</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0.35</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat5>
+
+    <mat6>
+      <name>6</name>
+      <red>175</red>
+      <green>50</green>
+      <blue>175</blue>
+      <reflect>20</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>1</sky>
+      <texture>NULL</texture>
+    </mat6>
+
+    <mat7>
+      <name>7</name>
+      <red>14</red>
+      <green>140</green>
+      <blue>255</blue>
+      <reflect>5</reflect>
+      <transparency>65</transparency>
+      <ior>1</ior>
+      <bump>0.6</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat7>
+
+    <mat8>
+      <name>8</name>
+      <red>100</red>
+      <green>100</green>
+      <blue>255</blue>
+      <reflect>10</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat8>
+  </material_list>
+
+  <object_list>
+    <count>7</count>
+
+    <obj1>
+      <name>sphere 1</name>
+      <type>sphere</type>
+      <center>
+	      <x>-22.5</x>
+	      <y>10</y>
+	      <z>0</z>
+      </center>
+      <radius>10</radius>
+      <material_id>1</material_id>
+    </obj1>
+
+    <obj2>
+      <name>sphere 2</name>
+      <type>sphere</type>
+      <center>
+	      <x>-11.2</x>
+	      <y>-15</y>
+	      <z>0</z>
+      </center>
+      <radius>10</radius>
+      <material_id>2</material_id>
+    </obj2>
+
+    <obj3>
+      <name>sphere 3</name>
+      <type>sphere</type>
+      <center>
+        <x>0</x>
+        <y>10</y>
+        <z>0</z>
+      </center>
+      <radius>10</radius>
+      <material_id>3</material_id>
+    </obj3>
+
+    <obj4>
+      <name>sphere 4</name>
+      <type>sphere</type>
+      <center>
+	      <x>11.2</x>
+	      <y>-15</y>
+	      <z>0</z>
+      </center>
+      <radius>10</radius>
+      <material_id>4</material_id>
+    </obj4>
+
+    <obj5>
+      <name>sphere 5</name>
+      <type>sphere</type>
+      <center>
+	      <x>32.5</x>
+	      <y>0</y>
+	      <z>-10</z>
+      </center>
+      <radius>10</radius>
+      <material_id>5</material_id>
+    </obj5>
+
+    <obj6>
+      <name>eau</name>
+      <type>plan</type>
+      <center>
+  <x>0</x>
+  <y>0</y>
+  <z>0</z>
+      </center>
+      <dir>
+  <x>0</x>
+  <y>-1</y>
+  <z>0</z>
+      </dir>
+      <material_id1>7</material_id1>
+      <material_id2>7</material_id2>
+    </obj6>
+
+    <obj7>
+      <name>sable</name>
+      <type>plan</type>
+      <center>
+  <x>0</x>
+  <y>-20</y>
+  <z>0</z>
+      </center>
+      <dir>
+  <x>0</x>
+  <y>-1</y>
+  <z>0</z>
+      </dir>
+      <material_id1>8</material_id1>
+      <material_id2>4</material_id2>
+    </obj7>
+
+    <obj7>
+      <name>sphere 5m</name>
+      <type>sphere</type>
+      <center>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+      </center>
+      <radius>1000</radius>
+      <material_id>6</material_id>
+    </obj7>
+  </object_list>
+
+  <light_list>
+    <count>3</count>
+
+    <light1>
+      <center>
+        <x>50</x>
+	      <y>50</y>
+	      <z>-50</z>
+      </center>
+      <intensity>100</intensity>
+    </light1>
+
+    <light2>
+      <center>
+        <x>0</x>
+	      <y>55</y>
+	      <z>0</z>
+      </center>
+      <intensity>100</intensity>
+    </light2>
+
+    <light3>
+      <center>
+        <x>-50</x>
+        <y>5</y>
+        <z>10</z>
+      </center>
+      <intensity>100</intensity>
+    </light3>
+  </light_list>
+
+</scene>

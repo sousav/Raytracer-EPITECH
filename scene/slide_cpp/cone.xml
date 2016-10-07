@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+
+  <view>
+    <x_size>1080</x_size>
+    <y_size>720</y_size>
+    <cam_pos>
+      <x>-30</x>
+      <y>25</y>
+      <z>-50</z>
+    </cam_pos>
+    <look_at>
+      <x>0</x>
+      <y>5</y>
+      <z>0</z>
+    </look_at>
+    <fov>90</fov>
+    <alias>1</alias>
+    <background>NULL</background>
+  </view>
+
+  <material_list>
+    <count>3</count>
+
+    <mat1>
+      <name>yellow marble</name>
+      <red>204</red>
+      <green>138</green>
+      <blue>34</blue>
+      <reflect>50</reflect>
+      <transparency>0</transparency>
+      <ior>1</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat1>
+
+    <mat3>
+      <name>black</name>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+      <reflect>10</reflect>
+      <transparency>0</transparency>
+      <ior>0</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat3>
+
+    <mat2>
+      <name>white</name>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+      <reflect>10</reflect>
+      <transparency>0</transparency>
+      <ior>1</ior>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat2>
+  </material_list>
+
+  <object_list>
+    <count>3</count>
+
+    <obj1>
+      <name>cone</name>
+      <type>cone</type>
+      <center>
+  <x>0</x>
+  <y>0</y>
+  <z>0</z>
+      </center>
+      <dir>
+  <x>0</x>
+  <y>1</y>
+  <z>0</z>
+      </dir>
+      <radius>7.5</radius>
+      <height>25</height>
+      <material_id>1</material_id>
+    </obj1>
+
+    <obj3>
+      <name>sphere</name>
+      <type>sphere</type>
+      <center>
+    <x>20</x>
+    <y>15</y>
+    <z>-20</z>
+      </center>
+      <radius>5</radius>
+      <material_id>2</material_id>
+    </obj3>
+
+    <obj2>
+      <name>plan</name>
+      <type>plan</type>
+      <center>
+  <x>0</x>
+  <y>0</y>
+  <z>0</z>
+      </center>
+      <dir>
+  <x>0</x>
+  <y>-1</y>
+  <z>0</z>
+      </dir>
+      <material_id1>2</material_id1>
+      <material_id2>3</material_id2>
+    </obj2>
+  </object_list>
+
+  <light_list>
+    <count>1</count>
+
+    <light1>
+      <center>
+        <x>30</x>
+	      <y>40</y>
+	      <z>-30</z>
+      </center>
+      <intensity>100</intensity>
+    </light1>
+
+  </light_list>
+
+</scene>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+
+  <view>
+    <x_size>1080</x_size>
+    <y_size>720</y_size>
+    <cam_pos>
+      <x>0</x>
+      <y>0</y>
+      <z>-500</z>
+    </cam_pos>
+    <look_at>
+      <x>0</x>
+      <y>-50</y>
+      <z>0</z>
+    </look_at>
+    <fov>90</fov>
+    <alias>1</alias>
+    <background>NULL</background>
+  </view>
+
+  <material_list>
+    <count>7</count>
+
+    <mat1>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>25</reflect>
+      <bump>0.95</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat1>
+
+    <mat7>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>25</reflect>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat7>
+
+    <mat6>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>25</reflect>
+      <bump>0.85</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat6>
+
+    <mat3>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>100</reflect>
+      <bump>0</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat3>
+
+    <mat4>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>100</reflect>
+      <bump>0.85</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat4>
+
+    <mat5>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>100</reflect>
+      <bump>0.95</bump>
+      <sky>0</sky>
+      <texture>NULL</texture>
+    </mat5>
+
+    <mat2>
+      <red>25</red>
+      <green>25</green>
+      <blue>255</blue>
+      <reflect>0</reflect>
+      <bump>0</bump>
+      <sky>1</sky>
+      <texture>sprites/image/sky1.png</texture>
+    </mat2>
+  </material_list>
+
+  <object_list>
+    <count>7</count>
+
+    <obj1>
+      <type>sphere</type>
+      <center>
+	      <x>-175</x>
+	      <y>0</y>
+	      <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>1</material_id>
+    </obj1>
+
+    <obj6>
+      <type>sphere</type>
+      <center>
+	      <x>-90</x>
+	      <y>-125</y>
+	      <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>6</material_id>
+    </obj6>
+
+    <obj3>
+      <type>sphere</type>
+      <center>
+	      <x>1</x>
+	      <y>0</y>
+	      <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>3</material_id>
+    </obj3>
+
+    <obj7>
+      <type>sphere</type>
+      <center>
+	      <x>-1</x>
+	      <y>0</y>
+	      <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>7</material_id>
+    </obj7>
+
+    <obj4>
+      <type>sphere</type>
+      <center>
+	      <x>90</x>
+	      <y>-125</y>
+	      <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>4</material_id>
+    </obj4>
+
+    <obj5>
+      <type>sphere</type>
+      <center>
+        <x>175</x>
+        <y>0</y>
+        <z>0</z>
+      </center>
+      <radius>75</radius>
+      <material_id>5</material_id>
+    </obj5>
+
+    <obj2>
+      <type>sphere</type>
+      <center>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </center>
+      <radius>600</radius>
+      <material_id>2</material_id>
+    </obj2>
+  </object_list>
+
+  <light_list>
+    <count>5</count>
+
+    <light1>
+      <center>
+	<x>320</x>
+	<y>240</y>
+	<z>-10000</z>
+      </center>
+      <intensity>300</intensity>
+    </light1>
+
+    <light2>
+      <center>
+	<x>640</x>
+	<y>240</y>
+	<z>-1000</z>
+      </center>
+      <intensity>200</intensity>
+    </light2>
+
+    <light3>
+      <center>
+	<x>320</x>
+	<y>0</y>
+	<z>-100</z>
+      </center>
+      <intensity>100</intensity>
+    </light3>
+
+    <light4>
+      <center>
+	<x>-500</x>
+	<y>0</y>
+	<z>500</z>
+      </center>
+      <intensity>125</intensity>
+    </light4>
+
+    <light5>
+      <center>
+	<x>0</x>
+	<y>500</y>
+	<z>0</z>
+      </center>
+      <intensity>125</intensity>
+    </light5>
+  </light_list>
+
+</scene>
