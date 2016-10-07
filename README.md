@@ -10,6 +10,10 @@
 ## Projet
 	Réalisation d'un moteur de rendu utilisant le raytracing (en C)
 	
+## Screenshot
+![]({{site.baseurl}}//Pasted%20image%20at%202016_05_24%2005_07%20AM.png)
+
+
 ## Rendu
 	- Raytracer en C
 	- Editeur du fichier de scène (XML) en ligne de commande
