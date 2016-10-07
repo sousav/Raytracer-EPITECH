@@ -11,7 +11,7 @@
 	Réalisation d'un moteur de rendu utilisant le raytracing (en C)
 	
 ## Screenshot
-![]({{site.baseurl}}//Pasted%20image%20at%202016_05_24%2005_07%20AM.png)
+![]({{site.baseurl}}/https://slack-files.com/T0KLRS3AN-F1AP3TA6S-b3b610d8ff)
 
 
 ## Rendu
