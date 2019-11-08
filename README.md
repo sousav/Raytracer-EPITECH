@@ -1,25 +1,20 @@
 # Raytracer-EPITECH
 # Note : 38.5
 
-## Elèves:
-	sousa_v  (victor.sousa@epitech.eu)
-    kerdel_e (ethan.kerdelhue@epitech.eu)
-    leandr_g (gaetan.leandre@epitech.eu)
-    lefevr_h (philippe.lefevr@epitech.eu)
 
-## Projet
-	Réalisation d'un moteur de rendu utilisant le raytracing (en C)
+## Projet **Raytracer**
+	Un raytracer est un algorithme de rendu 3D, très différent des algorithmes de rendu utilisés dans l'industrie du jeu vidéo. C'est une méthode de rendu appelée "ray tracing" qui fonctionne par calculs d'intersections, c'est une méthode très coûteuse en termes de puissance de calcul qui la rend inutilisable pour le rendu en temps réel. Cependant, c'est une méthode de rendu qui permet de se rapprocher le plus possible d'un rendu photo-réaliste, ce qui en fait la méthode préférée pour le rendu d'effets spéciaux au cinéma par exemple.
 	
 ## Screenshot
-[https://slack-files.com/T0KLRS3AN-F1ARPMF40-c2a4d3bc58](https://slack-files.com/T0KLRS3AN-F1ARPMF40-c2a4d3bc58)
+![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/reflect_woodend.png)
 
-[https://slack-files.com/T0KLRS3AN-F1B7JLB2N-76acface71](https://slack-files.com/T0KLRS3AN-F1B7JLB2N-76acface71)
+![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/Pasted%20image%20at%202016_05_24%2005_07%20AM.png)
 
-[https://slack-files.com/T0KLRS3AN-F1AP3TA6S-b3b610d8ff](https://slack-files.com/T0KLRS3AN-F1AP3TA6S-b3b610d8ff)
+![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/dragon.png)
 
-[https://slack-files.com/T0KLRS3AN-F192AH3KR-e04e8f85d0](https://slack-files.com/T0KLRS3AN-F192AH3KR-e04e8f85d0)
+![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/Screenshot%20from%202016-05-05%2008-00-01.png)
 
-[https://slack-files.com/T0KLRS3AN-F17GBQ681-ac4eb52184](https://slack-files.com/T0KLRS3AN-F17GBQ681-ac4eb52184)
+![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/WATER.png)
 
 
 ## Rendu
