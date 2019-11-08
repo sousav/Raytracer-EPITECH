@@ -3,7 +3,7 @@
 
 
 ## Projet **Raytracer**
-Un raytracer est un algorithme de rendu 3D, très différent des algorithmes de rendu utilisés dans l'industrie du jeu vidéo. C'est une méthode de rendu appelée "ray tracing" qui fonctionne par calculs d'intersections, c'est une méthode très coûteuse en termes de puissance de calcul qui la rend inutilisable pour le rendu en temps réel. Cependant, c'est une méthode de rendu qui permet de se rapprocher le plus possible d'un rendu photo-réaliste, ce qui en fait la méthode préférée pour le rendu d'effets spéciaux au cinéma par exemple.
+Un raytracer est un algorithme de rendu 3D, très différent des algorithmes de rendu utilisés dans l'industrie du jeu vidéo. C'est une méthode de rendu appelée "ray tracing" qui fonctionne par calculs d'intersections, c'est une méthode très coûteuse en termes de puissance de calcul ce qui la rend inutilisable pour le rendu en temps réel. Cependant, c'est une méthode de rendu qui permet de se rapprocher le plus possible d'un rendu photo-réaliste, ce qui en fait la méthode de prédilection pour le rendu d'effets spéciaux au cinéma par exemple.
 	
 ## Screenshot
 ![alt text](https://github.com/sousav/Raytracer-EPITECH/blob/master/output/reflect_woodend.png)
